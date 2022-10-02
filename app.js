@@ -31,7 +31,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 const fusionClient = new FusionAuthClient(
-  "KNn4rJJktJjRnbajCtDvFhe9b0nnD5jfQEf_YpK_Mb2GP0kuGUxbzOZc",
+  "<todo>>",
   "https://fusionauth.ritza.co"
 );
 
@@ -40,8 +40,8 @@ passport.use(
     {
       authorizationURL: "https://fusionauth.ritza.co/oauth2/authorize",
       tokenURL: "https://fusionauth.ritza.co/oauth2/token",
-      clientID: "0403d66c-992c-4f6c-94fb-66f574a70e72",
-      clientSecret: "BPnj73hkCNA_vcC9aFfDgiu0F8pomPvWsQ15xIUCzss",
+      clientID: "<todo>",
+      clientSecret: "<todo>",
       callbackURL: "http://localhost:3000/auth/callback",
     },
     function (accessToken, refreshToken, profile, cb) {
